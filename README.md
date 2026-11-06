@@ -1,7 +1,6 @@
 # Socioecological Neuroscience Lab website
 
-Static copy of socioecologicalneuroscience.com, moved off Weebly to GitHub Pages.
-Plain HTML: no build step, no framework.
+Static copy of socioecologicalneuroscience.com (plain HTML) moved off Weebly to GitHub Pages (assisted with claude)
 
 ## Editing
 
@@ -16,24 +15,7 @@ In the menu: Home, People, Happenings, Research Topics, Publications, Participat
 
 Not in the menu, but kept at the same addresses: `comics.html`, `cv.html`, `funding-resources.html`, `mentee-history.html`, `outreach.html`.
 
-## Photos Weebly left out
-
-Weebly's archive skipped 12 People-page photos. While the Weebly site is still online, run this once from inside this folder in Terminal (it also copies your photos and PDFs from the Weebly archive):
-
-```
-bash setup.sh
-```
 
 ## Custom domain
 
 The domain is set in **Settings → Pages → Custom domain** as `www.socioecologicalneuroscience.com`. GitHub stores it in a `CNAME` file.
-
-DNS records at the domain registrar:
-
-| Type  | Name | Value                  |
-|-------|------|------------------------|
-| CNAME | www  | `<username>.github.io` |
-| A     | @    | 185.199.108.153        |
-| A     | @    | 185.199.109.153        |
-| A     | @    | 185.199.110.153        |
-| A     | @    | 185.199.111.153        |
